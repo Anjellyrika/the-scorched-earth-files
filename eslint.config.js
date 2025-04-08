@@ -5,8 +5,8 @@ import svelte from 'eslint-plugin-svelte';
 import svelteConfig from './svelte.config.js';
 import ts from 'typescript-eslint';
 
-import { includeIgnoreFile } from '@eslint/compat';
 import { fileURLToPath } from 'node:url';
+import { includeIgnoreFile } from '@eslint/compat';
 
 const gitignorePath = fileURLToPath(new URL('./.gitignore', import.meta.url));
 
@@ -19,19 +19,19 @@ export default ts.config(
 	...svelte.configs.prettier,
 	{
 		languageOptions: {
-			globals: { ...globals.browser, ...globals.node }
+			globals: { ...globals.browser, ...globals.node },
 		},
 		rules: {
 			'sort-imports': ['error', { allowSeparatedGroups: true }],
-            '@typescript-eslint/no-use-before-define': 'error',
+			'@typescript-eslint/no-use-before-define': 'error',
 			'no-duplicate-imports': 'error',
 			'no-unreachable-loop': 'error',
-            'no-var': 'error',
+			'no-var': 'error',
 			'no-else-return': 'error',
 			'no-lonely-if': 'error',
-            'no-console': 'warn',
+			'no-console': 'warn',
 			'no-undef': 'off',
-		}
+		},
 	},
 	{
 		files: ['**/*.svelte', '**/*.svelte.ts', '**/*.svelte.js'],
@@ -41,8 +41,8 @@ export default ts.config(
 				projectService: true,
 				extraFileExtensions: ['.svelte'],
 				parser: ts.parser,
-				svelteConfig
-			}
-		}
-	}
+				svelteConfig,
+			},
+		},
+	},
 );
