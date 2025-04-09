@@ -1,1 +1,55 @@
 @import 'tailwindcss';
+
+@theme {
+    --font-body: "Source Serif 4", serif;
+	--font-heading: Courier Prime, serif;
+	--font-title: IM Fell DW Pica, serif;
+	--font-title-italic: IM Fell English Italic, serif;
+}
+
+@layer base {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-heading;
+	}
+}
+
+body {
+	@apply font-body;
+}
+
+@font-face {
+	font-family: 'Source Serif 4';
+	src: url('fonts/SourceSerif4-Regular.woff2') format('woff2');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Source Serif 4';
+	src: url('fonts/SourceSerif4-Italic.woff2') format('woff2');
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Courier Prime';
+	src: url('fonts/CourierPrime-Regular.woff2') format('woff2');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'IM Fell DW Pica';
+	src: url('fonts/IMFellDWPica-Regular.woff2') format('woff2');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'IM Fell English Italic';
+	src: url('fonts/IMFellEnglish-Italic.woff2') format('woff2');
+	font-style: italic;
+	font-display: swap;
+}
