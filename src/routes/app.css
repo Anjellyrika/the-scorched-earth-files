@@ -1,7 +1,39 @@
 @import 'tailwindcss';
 
 @theme {
-    --font-body: "Source Serif 4", serif;
+	--color-surface-50: oklch(97.69% 0 18.82deg);
+	--color-surface-100: oklch(95.26% 0 67.9deg);
+	--color-surface-200: oklch(89.12% 0 34.57deg);
+	--color-surface-300: oklch(79.41% 0.01 36.66deg);
+	--color-surface-400: oklch(67.31% 0.01 28.97deg);
+	--color-surface-500: oklch(57.56% 0.02 26.82deg);
+	--color-surface-600: oklch(49.95% 0.02 34.34deg);
+	--color-surface-700: oklch(43.31% 0.01 31.18deg);
+	--color-surface-800: oklch(39.26% 0.01 44.75deg);
+	--color-surface-900: oklch(35.78% 0.01 39.41deg);
+	--color-surface-950: oklch(25.07% 0 39.45deg);
+
+	--color-primary-300: oklch(68.16% 0.08 61.27deg);
+	--color-primary-400: oklch(60.26% 0.08 59.33deg);
+	--color-primary-500: oklch(52.23% 0.07 59.86deg);
+	--color-primary-600: oklch(43.02% 0.06 54.59deg);
+	--color-primary-700: oklch(34.55% 0.05 48.55deg);
+
+	--color-secondary-300: oklch(64.56% 0.06 255.09deg);
+	--color-secondary-400: oklch(57.4% 0.06 257.46deg);
+	--color-secondary-500: oklch(50.03% 0.06 255.08deg);
+	--color-secondary-700: oklch(42.17% 0.06 254.62deg);
+	--color-secondary-900: oklch(34.53% 0.04 257.77deg);
+
+	--color-tertiary-400: oklch(80.78% 0.11 81.12deg);
+	--color-tertiary-500: oklch(76.45% 0.12 77.07deg);
+	--color-tertiary-600: oklch(67.61% 0.12 65.39deg);
+
+	--color-error-500: oklch(63.64% 0.17 29.82deg);
+	--color-warning-500: oklch(76.66% 0.14 52.62deg);
+	--color-success-500: oklch(55.58% 0.05 146.59deg);
+
+	--font-body: 'Source Serif 4', serif;
 	--font-heading: Courier Prime, serif;
 	--font-title: IM Fell DW Pica, serif;
 	--font-title-italic: IM Fell English Italic, serif;
@@ -14,12 +46,35 @@
 	h4,
 	h5,
 	h6 {
-		@apply font-heading;
+		@apply font-heading tracking-wide;
+	}
+
+	h1 {
+		@apply text-5xl;
+	}
+	h2 {
+		@apply text-4xl;
+	}
+	h3 {
+		@apply text-3xl;
+	}
+	h4 {
+		@apply text-2xl;
+	}
+	h5 {
+		@apply text-xl;
+	}
+	h6 {
+		@apply text-lg italic;
+	}
+
+	a {
+		@apply font-semibold tracking-wide text-secondary-300;
 	}
 }
 
 body {
-	@apply font-body;
+	@apply font-body text-surface-50 bg-surface-950 flex min-h-screen flex-col;
 }
 
 @font-face {
