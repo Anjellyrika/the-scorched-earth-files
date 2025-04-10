@@ -1,8 +1,12 @@
-<div>
+<div class="*:hover:underline *:hover:underline-offset-2">
 	Built and designed by
-	<a href="/">Jelly</a>
+	<a href="https://github.com/Anjellyrika" target="_blank" rel="noopener noreferrer">Jelly</a>
 	with
-	<a href="/https://svelte.dev/" target="_blank" rel="external">SvelteKit</a>. Scorched Earth was
-	originally written by
-	<a href="/">Joshua</a>, with <a href="/">Kenshin</a> and <a href="/">Jelly</a>.
+	<a href="https://svelte.dev/" target="_blank" rel="noopener noreferrer">SvelteKit</a>.
+	<span class="italic">Scorched Earth</span>
+	was originally written by
+	<a href="/" target="_blank" rel="noopener noreferrer">Joshua</a>, with
+	<a href="/" target="_blank" rel="noopener noreferrer">Kenshin</a>
+	and
+	<a href="https://github.com/Anjellyrika" target="_blank" rel="noopener noreferrer">Jelly</a>.
 </div>

@@ -69,12 +69,12 @@
 	}
 
 	a {
-		@apply font-semibold tracking-wide text-secondary-300;
+		@apply text-secondary-300 font-semibold tracking-wide;
 	}
 }
 
 body {
-	@apply font-body text-surface-50 bg-surface-950 flex min-h-screen flex-col;
+	@apply font-body text-surface-50 bg-surface-950;
 }
 
 @font-face {
