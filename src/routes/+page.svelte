@@ -1,6 +1,4 @@
 <script>
-	import './app.css';
-
 	import Character from '@iconify-icons/game-icons/character';
 	import Cube from '@iconify-icons/game-icons/cube';
 	import DetectiveTable from '$lib/assets/detective-table.webp';
