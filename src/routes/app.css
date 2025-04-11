@@ -79,32 +79,32 @@ body {
 
 @font-face {
 	font-family: 'Source Serif 4';
-	src: url('fonts/SourceSerif4-Regular.woff2') format('woff2');
+	src: url('$lib/fonts/SourceSerif4-Regular.woff2') format('woff2');
 	font-display: swap;
 }
 
 @font-face {
 	font-family: 'Source Serif 4';
-	src: url('fonts/SourceSerif4-Italic.woff2') format('woff2');
+	src: url('$lib/fonts/SourceSerif4-Italic.woff2') format('woff2');
 	font-style: italic;
 	font-display: swap;
 }
 
 @font-face {
 	font-family: 'Courier Prime';
-	src: url('fonts/CourierPrime-Regular.woff2') format('woff2');
+	src: url('$lib/fonts/CourierPrime-Regular.woff2') format('woff2');
 	font-display: swap;
 }
 
 @font-face {
 	font-family: 'IM Fell DW Pica';
-	src: url('fonts/IMFellDWPica-Regular.woff2') format('woff2');
+	src: url('$lib/fonts/IMFellDWPica-Regular.woff2') format('woff2');
 	font-display: swap;
 }
 
 @font-face {
 	font-family: 'IM Fell English Italic';
-	src: url('fonts/IMFellEnglish-Italic.woff2') format('woff2');
+	src: url('$lib/fonts/IMFellEnglish-Italic.woff2') format('woff2');
 	font-style: italic;
 	font-display: swap;
 }
