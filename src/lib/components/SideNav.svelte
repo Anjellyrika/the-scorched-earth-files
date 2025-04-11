@@ -14,13 +14,13 @@
 	<a
 		href={base}{path}
 		aria-label={label}
-		class={`${bgColorClass} text-surface-50 w-fit rounded-r-2xl p-4 transition-all hover:pl-6`}
+		class={`${bgColorClass} text-surface-50 w-fit rounded-t-2xl md:rounded-t-none md:rounded-r-2xl p-4 transition-all hover:pl-6`}
 	>
 		<Icon {icon} width={20} />
 	</a>
 {/snippet}
 
-<div class="grid">
+<div class="grid grid-flow-col md:grid-flow-row">
 	{@render Tab('/', 'Home', House, 'bg-primary-500')}
 	{@render Tab('/world', 'World', World, 'bg-secondary-500')}
 	{@render Tab('/characters', 'Characters', Character, 'bg-tertiary-500')}

@@ -19,7 +19,7 @@
 </script>
 
 <main>
-	<section class="flex flex-col gap-4 md:flex-row-reverse md:gap-12">
+	<section class="flex flex-col gap-4 md:flex-row-reverse md:gap-8">
 		<h1 class="text-center text-3xl md:hidden">{displayName}</h1>
 		<Infobox image={portrait} {bio} {role} />
 		<section class="space-y-4">
