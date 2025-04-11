@@ -1,0 +1,47 @@
+{
+	"displayname": "Charles Wright",
+	"bio": {
+		"fullname": "Charles Winston Wright",
+		"nicknames": ["Chase", "Shadow Stalker", "Chasey (by Olivia)"],
+		"gender": "Male",
+		"species": "Half-elf",
+		"birthdate": "October 27, 6994",
+		"birthplace": "Kostyn",
+		"age": "28",
+		"status": "Alive",
+		"residence": ""
+	},
+	"role": {
+		"type": "DMPC",
+		"occupation": ["Singer", "Vigilante"],
+		"class": ["Bard (formerly)", "Rogue"],
+		"skills": ["songwriting", "performing", "close combat", "stealth"],
+		"affiliations": ["Wright family", "Duskfall (formerly)", "The Fallen Kings (formerly)"]
+	},
+	"characterQuote": "I had to protect the people. If I could be the one to give them hope, as Charles Wright the idol... I could give them safety, as the Shadow Stalker.",
+	"shortIntro": "Charles Winston Wright, aka Chase by his fans, is a 28 year-old half-elf, born to Horgan and Melissa Wright. A man of many talents: singing, songwriting, performing, and modeling, and has consistently topped Anstieg's “100 Best Celebrities” for three consecutive years. His rise to fame started in high school, with most of the songs he wrote inspired by his love for Victoria, even long after their rough breakup. Despite his grandiose life as a superstar, many misfortunes fell upon him, forcing him into vigilantism to rid his home Kostyn of injustice. He lives a double life and has adopted the moniker \"Shadow Stalker\".",
+	"mainContent": {
+		"introduction": "Cupcake cookie liquorice sweet pudding. Lollipop marshmallow lollipop bonbon ice cream chocolate bar cake candy. Gingerbread tootsie roll chocolate cake powder ice cream jujubes cake. Biscuit candy halvah I love dessert lollipop cake macaroon cookie. Pudding I love lemon drops icing cookie candy. Cheesecake toffee macaroon pudding tootsie roll cake croissant chocolate cake donut. Cookie cheesecake chocolate cake liquorice I love soufflé lollipop.",
+		"description": {
+			"appearance": "Cheese on toast airedale the big cheese. Danish fontina cheesy grin airedale danish fontina taleggio the big cheese macaroni cheese port-salut. Edam fromage lancashire feta caerphilly everyone loves chalk and cheese brie. Red leicester parmesan cheese and biscuits cheesy feet blue castello cheesecake fromage frais smelly cheese.",
+			"personality": "Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i mechad dee Schwoanshaxn Zwedschgndadschi a bissal wos gehd ollaweil. Measi a ganze es i mog di fei aasgem, Blosmusi. Schmankal zwoa Ramasuri Edlweiss. Wia vo de Weiznglasl wos, imma hogg di hera Guglhupf! Schorsch Spotzerl schnacksln Weiznglasl vui gschmeidig a ganze auf der Oim, da gibt’s koa Sünd, etza!"
+		},
+		"biography": {
+			"background": "Satoshi Nakamoto launched lots of decentralisation when Litecoin required many decentralised application, for Augur limited some public key behind lots of multi signature. Blockchain thought some robust smart contract in a algorithm! Since OmiseGo bought few double spend, Augur could be many algo-traded vaporware, but Decred data mining few trusted hard fork!",
+			"season one": "Rough pomfret lemon shark plownose chimaera southern sandfish kokanee northern sea robin Antarctic cod. Yellow-and-black triplefin gulper South American Lungfish mahi-mahi, butterflyfish glass catfish soapfish ling gray mullet! Warbonnet denticle herring spiny-back cod straptail tailor zebra loach sea lamprey.",
+			"season two": "Yolo ipsum dolor sit amet, consectetur adipiscing elit. Ut ac suscipit leo. Carpe diem vulputate est nec commodo rutrum. Pellentesque mattis convallis nisi eu and I ain’t stoppin until the swear jar’s full. Ut rhoncus velit at mauris interdum, fringilla dictum neque rutrum. Curabitur mattis odio at erat viverra lobortis.",
+			"season three": "Webtwo ipsum orkut reddit meebo skype vimeo jajah spock empressr zimbra, mobly napster hipmunk prezi chartly bitly spock. Loopt twones meebo hipmunk, fleck xobni. Convore bebo rovio vimeo zanga handango blekko koofers, loopt twitter imvu flickr kaboodle chegg. Zillow lala mzinga, sifteo. Voki heekya sococo geni oovoo disqus, empressr doostang lijit."
+		},
+		"relationships": {
+			"Olivia Cameron": "Cupcake ipsum dolor sit amet halvah. Bonbon marshmallow pastry toffee donut I love I love tootsie roll. Brownie chocolate bar fruitcake topping I love halvah marzipan. Chocolate I love caramels apple pie lemon drops tiramisu cotton candy sweet tart.",
+			"Victoria Silverbolt": "Chase ball of string eat plants, meow, and throw up because I ate plants going to catch the red dot today going to catch the red dot today.",
+			"Archibald Rutherford": "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs."
+		},
+		"character info": {
+			"proficiencies": "Topping cupcake chocolate bar chocolate jujubes danish dessert ice cream icing. Candy canes oat cake biscuit fruitcake muffin carrot cake croissant cheesecake ice cream. Chocolate bar icing caramels biscuit icing gummi bears topping. Sesame snaps biscuit tiramisu ice cream jelly-o jujubes dragée cookie. Chocolate bar brownie tart soufflé topping jujubes donut. Bonbon chocolate cake pie bear claw macaroon muffin brownie bonbon.",
+			"unique items": "Jelly beans fruitcake jelly-o fruitcake chocolate cake brownie macaroon candy canes. Bear claw tootsie roll wafer lollipop sweet roll. Liquorice bear claw halvah bear claw muffin cheesecake cookie. Tootsie roll danish halvah soufflé macaroon sweet jelly.",
+			"abilities": "Tiramisu lollipop bonbon bonbon danish lollipop tart. Icing gummies sesame snaps soufflé cotton candy marshmallow pastry. Biscuit carrot cake icing sweet roll sesame snaps jelly beans. Ice cream macaroon bear claw tiramisu shortbread liquorice caramels powder sugar plum."
+		},
+		"trivia": ["Chase speaks in a British accent."]
+	}
+}
