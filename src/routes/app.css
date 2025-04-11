@@ -37,6 +37,8 @@
 	--font-heading: Courier Prime, serif;
 	--font-title: IM Fell DW Pica, serif;
 	--font-title-italic: IM Fell English Italic, serif;
+
+	--animate-float-in: 0.2s float-in ease-out;
 }
 
 @layer base {
@@ -79,6 +81,19 @@ body {
 
 html {
 	@apply scroll-pt-10 scroll-smooth;
+}
+
+@keyframes float-in {
+	0% {
+		transform: translateY(50px);
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 @keyframes stay-underneath {

@@ -27,14 +27,18 @@
 >
 	<main class="flex flex-col items-center gap-12 text-center max-[400px]:gap-4">
 		<div class="space-y-8">
-			<h1 class="font-title text-surface-100 text-shadow-lg md:text-6xl">
+			<h1
+				class="font-title text-surface-100 motion-safe:animate-float-in text-shadow-lg md:text-6xl"
+			>
 				THE SCORCHED EARTH FILES
 			</h1>
-			<h5 class="text-surface-200 text-shadow-lg">
+			<h5
+				class="text-surface-200 text-sm text-shadow-lg motion-safe:animate-[float-in_0.5s] md:text-xl"
+			>
 				The official wiki for the Scorched Earth TTRPG
 			</h5>
 		</div>
-		<nav class="flex flex-col gap-3 md:flex-row">
+		<nav class="flex flex-col gap-3 motion-safe:animate-[float-in_0.58s] md:flex-row">
 			<HomeNavLink path="/world" text="World" icon={World} />
 			<HomeNavLink path="/characters" text="Characters" icon={Character} />
 			<HomeNavLink path="/places" text="Places" icon={PositionMarker} />
@@ -42,7 +46,7 @@
 		</nav>
 	</main>
 	<footer
-		class="text-surface-300 absolute inset-x-0 bottom-0 px-8 text-center text-xs md:py-2 md:text-base"
+		class="text-surface-300 absolute inset-x-0 bottom-0 px-4 text-center text-xs md:py-2 md:text-base"
 	>
 		<Footer />
 	</footer>
