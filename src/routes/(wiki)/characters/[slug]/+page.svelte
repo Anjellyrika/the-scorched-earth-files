@@ -60,11 +60,11 @@
 		<h2 id="gallery" class="border-surface-300 mb-2 w-fit border-b-1">GALLERY</h2>
 		<div class="grid grid-flow-row gap-4 md:grid-cols-4">
 			{#each gallery as photo (photo)}
-				<div class="">
+				<div class="odd:hover:rotate-2 even:hover:-rotate-2">
 					<img
 						src={photo}
 						alt=""
-						class="hover:border-surface-300 hover:bg-surface-300 h-68 w-full object-cover object-top transition-transform hover:scale-105 hover:border-9 hover:pb-8 hover:shadow-xl odd:hover:rotate-2 even:hover:-rotate-2"
+						class="hover:border-surface-300 hover:bg-surface-300 h-69 w-full object-cover object-top transition-transform hover:scale-105 hover:border-9 hover:pb-8 hover:shadow-xl"
 					/>
 				</div>
 			{/each}
