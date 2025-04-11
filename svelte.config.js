@@ -13,11 +13,11 @@ const config = {
 			assets: 'build',
 			fallback: undefined,
 			precompress: false,
-			strict: true
+			strict: true,
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : '/the-scorched-earth-files'
-		}
+			base: process.argv.includes('dev') ? '' : '/the-scorched-earth-files',
+		},
 	},
 };
 
