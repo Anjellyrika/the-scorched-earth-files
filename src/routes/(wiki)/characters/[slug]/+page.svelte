@@ -19,10 +19,11 @@
 </script>
 
 <main>
-	<section class="flex flex-row-reverse gap-12">
+	<section class="flex flex-col gap-4 md:flex-row-reverse md:gap-12">
+		<h1 class="text-center text-3xl md:hidden">{displayName}</h1>
 		<Infobox image={portrait} {bio} {role} />
 		<section class="space-y-4">
-			<h1>{displayName}</h1>
+			<h1 class="hidden whitespace-nowrap md:block">{displayName}</h1>
 			<CharacterQuote>{ChasePage.characterQuote}</CharacterQuote>
 			<p class="text-surface-300 leading-relaxed">{ChasePage.shortIntro}</p>
 			<TableOfContents contents={main} />
@@ -57,13 +58,15 @@
 	</section>
 	<section>
 		<h2 class="border-surface-300 mb-2 w-fit border-b-1">GALLERY</h2>
-		<div class="grid grid-cols-4 gap-4">
+		<div class="grid grid-flow-row gap-4 md:grid-cols-4">
 			{#each gallery as photo (photo)}
-				<img
-					src={photo}
-					alt=""
-					class="hover:border-surface-300 hover:bg-surface-300 max-h-68 w-full object-cover object-top transition-transform hover:scale-105 hover:border-9 hover:pb-8 hover:shadow-xl odd:hover:rotate-2 even:hover:-rotate-2"
-				/>
+				<div class="">
+					<img
+						src={photo}
+						alt=""
+						class="hover:border-surface-300 hover:bg-surface-300 h-68 w-full object-cover object-top transition-transform hover:scale-105 hover:border-9 hover:pb-8 hover:shadow-xl odd:hover:rotate-2 even:hover:-rotate-2"
+					/>
+				</div>
 			{/each}
 		</div>
 	</section>

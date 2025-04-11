@@ -11,10 +11,10 @@
 </script>
 
 <h1>Characters</h1>
-<div class="mt-10 flex gap-8">
+<div class="mt-10 flex flex-wrap justify-center gap-8 md:justify-start">
 	{#each sampleChars as [name, photo, href] (name)}
 		<a {href} class="group transition odd:hover:rotate-4 even:hover:-rotate-4">
-			<div class="bg-surface-300 inline-flex max-w-40 flex-col items-center p-2">
+			<div class="bg-surface-300 inline-flex w-40 flex-col items-center p-2">
 				<img src={photo} alt={name} class="max-h-36 w-full object-cover" />
 				<div class="flex justify-center pt-2 text-center">
 					<p
@@ -27,4 +27,6 @@
 		</a>
 	{/each}
 </div>
-<WipPage />
+<div class="p-8">
+	<WipPage />
+</div>

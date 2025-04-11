@@ -2,7 +2,7 @@
 	const { image, bio, role } = $props();
 </script>
 
-<aside class="min-w-75 place-self-center md:place-self-end">
+<aside class="min-w-75 place-self-center">
 	<img src={image} alt={bio.fullname} />
 	<div class="bg-surface-800 text-center"><h4>BIO</h4></div>
 	<div class="grid grid-cols-2">
