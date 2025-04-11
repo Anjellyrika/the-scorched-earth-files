@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import { onNavigate } from '$app/navigation';
 
 	import Character from '@iconify-icons/game-icons/character';
@@ -39,10 +40,10 @@
 			</h5>
 		</div>
 		<nav class="flex flex-col gap-3 motion-safe:animate-[float-in_0.58s] md:flex-row">
-			<HomeNavLink path="/world" text="World" icon={World} />
-			<HomeNavLink path="/characters" text="Characters" icon={Character} />
-			<HomeNavLink path="/places" text="Places" icon={PositionMarker} />
-			<HomeNavLink path="/items" text="Items" icon={Cube} />
+			<HomeNavLink path="{base}/world" text="World" icon={World} />
+			<HomeNavLink path="{base}/characters" text="Characters" icon={Character} />
+			<HomeNavLink path="{base}/places" text="Places" icon={PositionMarker} />
+			<HomeNavLink path="{base}/items" text="Items" icon={Cube} />
 		</nav>
 	</main>
 	<footer

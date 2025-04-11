@@ -1,6 +1,8 @@
 <script lang="ts">
 	import Icon, { type IconifyIcon } from '@iconify/svelte';
 
+	import { base } from '$app/paths';
+
 	import Character from '@iconify-icons/game-icons/character';
 	import Cube from '@iconify-icons/game-icons/cube';
 	import House from '@iconify-icons/game-icons/house';
@@ -10,7 +12,7 @@
 
 {#snippet Tab(path: string, label: string, icon: IconifyIcon, bgColorClass: string)}
 	<a
-		href={path}
+		href={base}{path}
 		aria-label={label}
 		class={`${bgColorClass} text-surface-50 w-fit rounded-r-2xl p-4 transition-all hover:pl-6`}
 	>
