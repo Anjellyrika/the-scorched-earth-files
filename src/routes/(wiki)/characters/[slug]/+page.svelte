@@ -26,7 +26,7 @@
 			<h1 class="hidden whitespace-nowrap md:block">{displayName}</h1>
 			<CharacterQuote>{ChasePage.characterQuote}</CharacterQuote>
 			<p class="text-surface-300 leading-relaxed">{ChasePage.shortIntro}</p>
-			<TableOfContents contents={main} />
+			<TableOfContents contents={main} hasGallery={true} />
 		</section>
 	</section>
 	<section>
@@ -57,7 +57,7 @@
 		{/each}
 	</section>
 	<section>
-		<h2 class="border-surface-300 mb-2 w-fit border-b-1">GALLERY</h2>
+		<h2 id="gallery" class="border-surface-300 mb-2 w-fit border-b-1">GALLERY</h2>
 		<div class="grid grid-flow-row gap-4 md:grid-cols-4">
 			{#each gallery as photo (photo)}
 				<div class="">

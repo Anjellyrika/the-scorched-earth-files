@@ -1,5 +1,5 @@
 <script lang="ts">
-	const { contents } = $props();
+	const { contents, hasGallery } = $props();
 </script>
 
 <div class="bg-surface-600 w-fit space-y-2">
@@ -12,5 +12,12 @@
 				>
 			</li>
 		{/each}
+		{#if hasGallery}
+			<li>
+				<a href="#gallery" class="text-surface-50 font-heading hover:underline">
+					&gt;&gt; gallery</a
+				>
+			</li>
+		{/if}
 	</ol>
 </div>
