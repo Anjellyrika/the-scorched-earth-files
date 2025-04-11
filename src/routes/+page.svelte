@@ -1,4 +1,6 @@
 <script>
+	import { onNavigate } from '$app/navigation';
+
 	import Character from '@iconify-icons/game-icons/character';
 	import Cube from '@iconify-icons/game-icons/cube';
 	import DetectiveTable from '$lib/assets/detective-table.webp';
@@ -6,6 +8,17 @@
 	import HomeNavLink from '$lib/components/HomeNavLink.svelte';
 	import PositionMarker from '@iconify-icons/game-icons/position-marker';
 	import World from '@iconify-icons/game-icons/world';
+
+	onNavigate((navigation) => {
+		if (!document.startViewTransition) return;
+
+		return new Promise((resolve) => {
+			document.startViewTransition(async () => {
+				resolve();
+				await navigation.complete;
+			});
+		});
+	});
 </script>
 
 <div

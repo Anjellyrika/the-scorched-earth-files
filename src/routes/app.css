@@ -81,6 +81,31 @@ html {
 	@apply scroll-pt-10 scroll-smooth;
 }
 
+@keyframes stay-underneath {
+	from {
+		transform: translateY(0%);
+	}
+	to {
+		transform: translateY(0%);
+	}
+}
+
+@keyframes page-in-from-bottom {
+	from {
+		transform: translateY(100%);
+	}
+	to {
+		transform: translateY(0%);
+	}
+}
+
+::view-transition-old(root) {
+	animation: 1s stay-underneath;
+}
+::view-transition-new(root) {
+	animation: 0.45s ease-in-out page-in-from-bottom;
+}
+
 @font-face {
 	font-family: 'Source Serif 4';
 	src: url('$lib/fonts/SourceSerif4-Regular.woff2') format('woff2');
